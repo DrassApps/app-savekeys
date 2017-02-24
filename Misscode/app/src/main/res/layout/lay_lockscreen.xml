@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/circuit">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="270dp"
+        android:background="@color/White"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MisidCode"
+            android:textStyle="bold"
+            android:textColor="@color/SlateGray"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/text_lock_1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="drass.apps@gmail.com"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/orange"
+            android:id="@+id/text_lock_2"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/text_lock_1"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/imageView_lock"
+            android:src="@drawable/huella"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/text_lock_2"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancelar"
+            android:textColor="@color/orange"
+            android:id="@+id/bt_lock"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="0dp"
+            android:layout_below="@+id/imageView_lock"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:singleLine="true"
+            android:textIsSelectable="false"
+            android:imeOptions="actionDone"
+            android:background="@android:color/transparent"
+            android:id="@+id/pass_lock"
+            android:layout_marginBottom="50dp"
+            android:layout_alignBottom="@+id/bt_lock"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contraseña Maestra"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/SlateGray"
+            android:id="@+id/text_lock_3"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="55dp"
+            android:layout_alignBottom="@+id/bt_lock"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="INICIAR SESION"
+            android:textColor="@color/White"
+            android:id="@+id/bt_entrar"
+            android:textSize="18dp"
+            android:background="@color/orange"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/imageView_lock"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"/>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Theme.JanusShop" parent="Base.AppTheme"/>
+
+    <style name="Base.AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/DarkGray</item>
+        <item name="colorPrimaryDark">@color/DarkGray</item>
+        <item name="colorAccent">@color/orange</item>
+        <item name="colorControlNormal">@color/White</item>
+        <item name="colorControlActivated">@color/orange</item>
+        <item name="colorControlHighlight">@color/White</item>
+
+
+        <item name="android:windowBackground">@color/White</item>
+    </style>
+
+
+</resources>
